@@ -92,3 +92,15 @@ table, th, td {
  font-size: 12px;
  }
 
+.centerText
+{ 
+    background-color:#FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+li{
+    margin-bottom: 15px;
+}
