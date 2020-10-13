@@ -1,24 +1,73 @@
 <!DOCTYPE HTML>
 <html lang="es">
-<head>
- <!-- Datos que describen el documento -->
+    <head>
+    <!-- Datos que describen el documento -->
 
- <meta charset="UTF-8">
- <title>Comenzando</title>
+        <meta charset="UTF-8"/>
+        <meta name = "author" content = "Alexander Lopez Mendez">
+        <meta name = "description" content = "Introducción">
+        <meta name = "keywords" content = "padrino, pelicula, crimen, mafia">
 
- <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
 
-</head>
-<body>
- <!-- Datos con el contenido que aparece en el navegador -->
- <h1>¡HOLA MUNDO!</h1>
+    <title>El padrino</title>
 
- <a href="https://validator.w3.org/check?uri=referer">
-    <img src=" images/HTML5.png" alt=" HTML5 Válido!"/></a>
-
-<a href="https://validator.w3.org/check?uri=referer">
-    <img src="images/CSS3.png"
-         alt="CSS Válido" height="63" width="64" /></a>
+    </head>
     
-</body>
+    <body>
+        <!-- Datos con el contenido que aparece en el navegador -->
+        <header>
+            <h1>El padrino</h1>
+        </header>
+        <h2>Navegación:</h2>
+        <nav>
+            <ul>
+                <li><a href="Argumento.html" title ="Argumento" tabindex="1" accesskey="a">Argumento </a></li>
+                <li><a href="Personajes.html" title ="Personajes" tabindex="2" accesskey="p">Personajes </a></li>
+                <li><a href="Premios.html" title ="Premios y galardones" tabindex="3" accesskey="r">Premios </a></li>
+                <li><a href="Musica.html" title ="Musica y banda sonora" tabindex="4" accesskey="m">Banda sonora </a></li>
+                <li><a href="Saga.html" title ="Peliculas de la saga" tabindex="5" accesskey="s">Saga</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h3>Introduccción</h3>
+
+                <p>
+                    El padrino (título original en inglés: The Godfather ) es una película estadounidense de 1972 dirigida por Francis Ford Coppola. La película fue producida por Albert S. Ruddy, de la compañía Paramount Pictures. 
+                    ficticia de Nueva York.
+                </p>
+
+                <p>
+                    Está basada en la novela homónima 
+                    (que a su vez está basada en la familia real de los Mortillaro de Sicilia, Italia), de Mario Puzo, quien adaptó el guion junto a Coppola y 
+                    Robert Towne, este último sin ser acreditado. Protagonizada por Marlon Brando y Al Pacino como los líderes de una poderosa familia criminal
+                </p>
+
+                <p>
+                    La historia, ambientada desde 1945 a 1955, cuenta las crónicas de la Familia Corleone liderada por Vito Corleone 
+                    (Brando), enfocándose en el personaje de Michael Corleone (Pacino), un reacio joven ajeno a los asuntos familiares a un implacable jefe de 
+                    la mafia italo-estadounidense.
+                </p>
+
+                <figure>
+                        <img class = "resize" alt="Logo de la saga" src=" multimedia/padrino-principal.png"/>
+                        <figcaption class = "resize_caption">Logo de la saga de películas El Padrino</figcaption>           
+                </figure>
+            </section>
+        </main>
+
+        <footer>
+            <h4>Links asociados:</h4>
+            <ul>
+                <li><a href="https://www.justwatch.com/es/pelicula/el-padrino"
+                    title ="Ver la pelicula por JustWatch" tabindex = "9" accesskey="h">JustWatch</a></li>
+                <li><a href="https://www.filmaffinity.com/es/film809297.html"  
+                    title ="Información de la pelicula proporcionada por Filmaffinity" tabindex = "10" accesskey="F">Filmaffinity</a></li>
+                <li><a href="https://www.rottentomatoes.com/m/godfather"  
+                    title ="Información de la pelicula proporcionada por RottenTomatoes" tabindex = "10" accesskey="F">RottenTomatoes</a></li>
+            </ul>
+        </footer>   
+
+    </body>
 </html>
