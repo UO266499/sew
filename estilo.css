@@ -58,7 +58,6 @@ h5
 }
 
 table {
-    border-collapse: collapse;
     margin: 0 auto;
     color: #000000;
 }
@@ -102,5 +101,5 @@ table, th, td {
 }
 
 li{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
