@@ -1,7 +1,0 @@
- http://validator.w3.org/
-
- https://jigsaw.w3.org/css-validator/ 
-
- http://www.tawdis.net/
-
- https://search.google.com/test/mobile-friendly  
